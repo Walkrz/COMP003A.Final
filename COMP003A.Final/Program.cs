@@ -198,6 +198,7 @@ namespace COMP003A.Final
                     return "Other";
                 default:
                     return "Unknown"; // Necessary return statement even though it is unreachable, handles error.
+                                      // Could just make it default to "Other" in case of error but would rather see that there is an issue
             }
         }
     }
